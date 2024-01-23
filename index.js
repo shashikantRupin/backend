@@ -17,8 +17,7 @@ if (!mongoUrl) {
 
 mongoose.connect(mongoUrl, {
   // dbName:databaseName,
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+ 
 });
 
 const con = mongoose.connection;
