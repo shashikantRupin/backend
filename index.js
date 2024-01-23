@@ -6,8 +6,10 @@ const {router} =require("./routes/aliens")
 const app=express();
 
 const mongoUrl = process.env.MONGODB_URL;
-// console.log(mongoUrl);
 
+
+// console.log(mongoUrl);
+//another way
 // const databaseName = "backendcrud";
 
 mongoose.connect(mongoUrl, {
