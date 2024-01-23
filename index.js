@@ -27,7 +27,7 @@ con.on('open', () => {
 
   // Start your Express server only if MongoDB connection is successful
   app.use(express.json());
-  app.use("/aliens", router);
+  app.use("/doctor", router);
 
   app.listen(9000, () => {
     console.log("Listening on port 9000...");
